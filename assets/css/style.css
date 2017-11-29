@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+li {
+	display: inline;
+}
+
+#name {
+	background-color: #4aaaa5;
+	height: 50px;
+
+}
