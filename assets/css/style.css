@@ -48,9 +48,47 @@ a:active {
 	color: #777777;
 }
 
+html {
+	width: 100%;
+	height: 100%;
+    background:#fff url("../images/dust_scratches.png") center center no-repeat;
+    background-attachment: fixed;
+    background-size:100% auto;
+}
+
 body {
 	height: 100%;
 	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+#formName, #formEmail {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+	width: 15%;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	border-radius: 0;
+
 }
 
 #header {
@@ -81,13 +119,6 @@ body {
 	font-size: 17px;
 }
 
-#contentBackground {
-	background-image: url("../images/circles-light.png");
-	width: 100%;
-	height: 800px;
-	z-index: -1;
-}
-
 .nav {
 	display: inline;
 }
@@ -97,15 +128,32 @@ body {
 	float: left;
 	margin-left: 155px;
 	background-color: #ffffff;
-	border: .3px solid #777777;
+	border: .3px solid #cccccc;
 	padding: 30px;
 	line-height: 2em;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
 	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+#contentPortfolio {
+	width: 650px;
+	float: left;
+	margin-left: 155px;
+	background-color: #ffffff;
+	border: .3px solid #cccccc;
+	padding: 30px;
+	line-height: 2em;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
+	margin-top: 55px;
+	margin-bottom: 55px;
 }
 
 #contentHeading {
 	color: #4aaaa5;
+	padding-bottom: 20px;
 }
 
 #mainContent {
@@ -122,11 +170,97 @@ body {
 	float: left;
 	margin-left: 55px;
 	background-color: #ffffff;
-	border: .3px solid #777777;
+	border: .3px solid #cccccc;
 	padding: 30px;
 	line-height: 2em;
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-family: Georgia, Times, Times New Roman, serif;
 	margin-top: 55px;
 	text-align: center;
 }
+
+#connectHeading {
+	padding-bottom: 7px;
+}
+
+#connectBreak {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.projectPic {
+	width: 47%;
+	height: 207px;
+	margin-top: 30px;
+}
+
+
+#projectOne {
+	background-image: url("../images/placeholder1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+
+}
+
+#projectTwo {
+	background-image: url("../images/placeholder2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right
+}
+
+#projectThree {
+	background-image: url("../images/placeholder3.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#projectFour {
+	background-image: url("../images/placeholder4.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#projectFive {
+	background-image: url("../images/placeholder5.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.projectName {
+	width: 100%;
+	background-color: #4aaaa5;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+#hangman, #rpgGame {
+	padding-right: 35%;
+	padding-left: 35%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 54%;
+}
+
+#triviaGame {
+	padding-right: 32%;
+	padding-left: 32%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 54%;
+}
+
+#rutgersInfoWidget, #rockPaperScissors {
+	padding-right: 23%;
+	padding-left: 23%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 54%;
+}
+
+
 
